@@ -52,4 +52,3 @@ def exec(cmd, val):
     
     else:
         conf.write_config_opt(cmd, val)
-    pass

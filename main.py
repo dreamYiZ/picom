@@ -40,6 +40,8 @@ def api():
         saying(command_2_dict["msg"])
         if command_2_dict["command"]:
             command.exec(cmd=command_2_dict["command"], val=command_2_dict["value"])
+            return {"status": "success", "ok": True,}
+            
 
     return {"status": "success"}
 
